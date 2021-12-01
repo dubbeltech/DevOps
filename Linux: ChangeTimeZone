@@ -1,0 +1,8 @@
+How to change time zone in centOs 7
+use the command to list all the timezones
+
+# timedatectl list-timezones
+
+Now use following command to change timezone to America/Los_Angeles.
+
+timedatectl set-timezone America/Los_Angeles
